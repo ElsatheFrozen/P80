@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>
+            P80
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+            <h3 style="margin-top: 20px; margin-bottom: 20px; ">
+                Guest List
+            </h3>
+            <br>
+            <div id="rows"></div>
+            <span>
+                <input type="text" placeholder="Enter Name" id="name">
+                <button onclick="submit()" id="submit_button">
+                    Submit
+                </button>                
+            </span>
+            <hr>
+            <div id="names"></div>
+            <hr>
+            <br>
+            <h3 style="margin-top: 20px; margin-bottom: 20px; ">
+                Guest List
+            </h3>
+            <button onclick="Show()" id="Show_button">
+                Show
+            </button>
+            <div id="guest_list"></div>
+            <hr>
+            <br>
+            <button onclick="Sorting()" id="sort_button">
+                Sort List
+            </button>
+            <div id="sorted_guest_list"></div>
+            <hr>
+            <br>
+            <span>
+                <input type="text" placeholder="Enter Name" id="search_name">
+                <button onclick="search()" id="search_button">
+                    Search
+                </button>                
+            </span>
+            <h5 id="searched_name"></h5>
+        </center>
+    </body>
+</html>
